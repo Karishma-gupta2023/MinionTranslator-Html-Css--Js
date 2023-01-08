@@ -1,3 +1,25 @@
+
+:root {
+  --primary-color:#F2C94C;
+ 
+}
+
+body {
+  font-family: 'Kalam', cursive;
+       
+}
+
+.navigation {
+    background-color: var(--primary-color);
+    padding: 1rem;
+    
+  }
+
+
+
+
+
+
 #input-text{
 width:80%;
 height:10vh;
@@ -16,27 +38,39 @@ padding:1rem;
     padding: 1rem;
 }
 
+
+
 h1{
     text-align:center;
-}
+    }
 
 #button-translated{
-    background-color: #F2C94C;
+    background-color: var(--primary-color);
     margin: 1rem;
     padding: 1rem;
     border-style: none;
     
 }
+ p{
+    padding:1rem;
+ }
 
-p{
-    
-    padding: 1rem;
-      
+
+main{
+    display:block;
+    padding:1rem;
+    max-width:600px;
+    margin:auto;
 }
 
-
-
-
+footer {
+    background-color: var(--primary-color);
+    padding: 1rem;
+    text-align: center;
+    
+    
+  }
+  
     
     
 
