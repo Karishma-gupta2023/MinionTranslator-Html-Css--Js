@@ -1,0 +1,42 @@
+#input-text{
+width:80%;
+height:10vh;
+display:block;
+margin:1rem;
+padding:1rem;
+
+}
+
+#output{
+    
+    border: 1px solid black;
+    width: 80%;
+    height: 10vh;
+    margin: 1rem;
+    padding: 1rem;
+}
+
+h1{
+    text-align:center;
+}
+
+#button-translated{
+    background-color: #F2C94C;
+    margin: 1rem;
+    padding: 1rem;
+    border-style: none;
+    
+}
+
+p{
+    
+    padding: 1rem;
+      
+}
+
+
+
+
+    
+    
+
