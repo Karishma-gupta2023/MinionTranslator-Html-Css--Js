@@ -1,17 +1,28 @@
+*{
+  margin:0;
+  padding:0;
+
+}
 
 :root {
-  --primary-color:#F2C94C;
+  --primary-color:#edbf33;
  
 }
 
 body {
   font-family: 'Kalam', cursive;
-       
+  margin-left: 34px;
+  margin-right: 34px;
+ 
+  
 }
 
 .navigation {
     background-color: var(--primary-color);
-    padding: 1rem;
+    padding: 3rem;
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+
     
   }
 
@@ -49,6 +60,9 @@ h1{
     margin: 1rem;
     padding: 1rem;
     border-style: none;
+    border-radius: 1rem;
+    font-weight: bold;
+    
     
 }
  p{
@@ -60,14 +74,16 @@ main{
     display:block;
     padding:1rem;
     max-width:600px;
+    
     margin:auto;
 }
 
 footer {
     background-color: var(--primary-color);
-    padding: 1rem;
+    padding: 3rem;
     text-align: center;
-    
+    border-bottom-left-radius: 1rem;
+    border-bottom-right-radius: 1rem;
     
   }
   
