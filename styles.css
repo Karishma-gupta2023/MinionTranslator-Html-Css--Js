@@ -11,17 +11,19 @@
 
 body {
   font-family: 'Kalam', cursive;
-  margin-left: 34px;
-  margin-right: 34px;
+  
+  box-sizing: border-box;
+  
  
   
 }
 
 .navigation {
     background-color: var(--primary-color);
-    padding: 3rem;
-    border-top-left-radius: 1rem;
-    border-top-right-radius: 1rem;
+    padding: 2rem;
+    color: aliceblue;
+    
+    
 
     
   }
@@ -37,12 +39,13 @@ height:10vh;
 display:block;
 margin:1rem;
 padding:1rem;
+border: 5px solid var(--primary-color);
 
 }
 
 #output{
     
-    border: 1px solid black;
+  border: 5px solid var(--primary-color);
     width: 80%;
     height: 10vh;
     margin: 1rem;
@@ -62,6 +65,9 @@ h1{
     border-style: none;
     border-radius: 1rem;
     font-weight: bold;
+    color:white;
+    font-size: large;
+    border:2px solid white ;
     
     
 }
@@ -76,14 +82,19 @@ main{
     max-width:600px;
     
     margin:auto;
+   
+    
 }
 
 footer {
     background-color: var(--primary-color);
-    padding: 3rem;
+    padding: 2rem;
     text-align: center;
     border-bottom-left-radius: 1rem;
     border-bottom-right-radius: 1rem;
+    color: aliceblue;
+    font-weight: bold;
+    font-size: larger;
     
   }
   
